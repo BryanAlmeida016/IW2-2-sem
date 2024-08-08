@@ -5,10 +5,10 @@
     top: 0;
     width: 100%;
     display: flex;
-    padding: 0.5rem;
+    padding-block: 0.75rem;
     font-size: 1.5rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .header span{
@@ -17,12 +17,9 @@
     font-weight: 500;
 }
 
-.header nav{
-    margin-right: 2rem;
-}
-
 .header a{
     text-decoration: none;
     color: #fff;
     padding-inline: 0.75rem;
+    font-size: 1.125rem;
 }
