@@ -1,6 +1,6 @@
-import styles from './Banner.module.css';
+import styles from "./Banner.module.css";
 
-function Banner({ image }){
+function Banner({ image }) {
     return(
         <div
             className={styles.banner}
